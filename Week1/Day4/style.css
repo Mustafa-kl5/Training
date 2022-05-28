@@ -1,0 +1,97 @@
+#section1 {
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
+}
+
+
+
+#rgb {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(181, 181, 181, 0.5);
+    /* like opacity just from rgb color */
+
+}
+
+#opacity {
+    background-color: rgb(19, 236, 236);
+    opacity: 0.5;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#static #middel {
+    width: 100px;
+    height: 100px;
+    position: static;
+    background-color: brown;
+    margin-bottom: 10px;
+    top: 100px;
+
+}
+
+#fixed #middel {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: brown;
+    margin-bottom: 10px;
+    top: 300px;
+
+}
+
+#relative #middel {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: brown;
+    margin-bottom: 10px;
+    top: 300px;
+
+}
+
+#absolute #middel {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: brown;
+    margin-bottom: 10px;
+    top: 300px;
+
+}
+
+#sticky #middel {
+
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    background-color: brown;
+    margin-bottom: 10px;
+    top: 300px;
+
+}
+
+.back-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    background-image: url('/Week1/Day4/Images/pexels-trace-hudson-2605867.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+}
+
+.text {
+    font-family: 'IBM Plex Sans', sans-serif;
+}

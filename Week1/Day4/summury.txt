@@ -1,0 +1,5 @@
+Objectives achieved in this day 
+
+1 Learn more CSS rule 
+2 How to deal with bootstap
+3 how to use flexbox 
