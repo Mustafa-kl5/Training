@@ -1,5 +1,0 @@
-Objectives achieved in this day 
-1 how to deal with terminal command 
-2 make repo 
-3 stage change with add and learned how to commit with massage
-
