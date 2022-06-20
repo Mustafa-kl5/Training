@@ -1,1 +1,1 @@
-Write a JavaScript program to display the status (i.e. display book name, author name and reading status) of books. You are given an object library in the code's template. It contains
+find the max result of 4 equations

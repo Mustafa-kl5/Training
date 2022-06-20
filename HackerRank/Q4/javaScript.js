@@ -1,26 +1,19 @@
-const library = [
-    {
-        title: "Bill Gates",
-        author: "The Road Ahead",
-        readingStatus: true,
-    },
-    {
-        title: "Steve Jobs",
-        author: "Walter Isaacson",
-        readingStatus: true,
-    },
-    {
-        title: "Mockingjay: The Final Book of The Hunger Games",
-        author: "Suzanne Collins",
-        readingStatus: false,
-    },
-];
-let tag1 = document.getElementById("tag1");
-let tag2 = document.getElementById("tag2");
-library.forEach((element) => {
-    if (element.readingStatus == true) {
-        tag1.innerHTML += `Already read ${element.title} by ${element.author}.`;
+function maxResult(a, b, c) {
+    let p1 = a * (b + c);
+    let p2 = a * b * c;
+    let p3 = a + b * c;
+    let p4 = (a + b) * c;
+    let result = 0;
+    if (p1 >= p2 && p1 >= p3 && p1 >= p4) {
+        result = p1;
+    } else if (p2 >= p1 && p2 >= p3 && p2 >= p4) {
+        result = p2;
+    } else if (p3 >= p1 && p3 >= p2 && p3 >= p4) {
+        result = p4;
     } else {
-        tag2.innerHTML += `You still need to read ${element.title} by ${element.author}. \n`;
+        result = p4;
     }
-});
+    return result;
+}
+let tag1 = document.getElementById("tag1");
+tag1.innerHTML += maxResult(2, 3, 5);
