@@ -1,0 +1,7 @@
+Objectives achieved in this day 
+1 learned semantic html
+2 deal with table and form and many type of input tag 
+3 learned basics css and how to use selector in css
+4 learned what box model,padding,margin,width and height
+
+
