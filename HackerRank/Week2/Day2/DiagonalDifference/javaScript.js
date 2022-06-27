@@ -7,6 +7,7 @@ const diagonalDifference = (arr) => {
             if (i + j == arr.length - 1) rightToLeft += arr[i][j];
         }
     }
+
     return Math.abs(leftToRight - rightToLeft);
 };
 const a = [

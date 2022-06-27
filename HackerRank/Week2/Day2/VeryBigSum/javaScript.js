@@ -3,6 +3,7 @@ const aVeryBigSum = (ar) => {
     for (let index = 0; index < ar.length; index++) {
         result += ar[index];
     }
+
     return result;
 };
 const ar = [

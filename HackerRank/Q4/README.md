@@ -1,1 +1,0 @@
-find the max result of 4 equations

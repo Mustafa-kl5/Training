@@ -7,6 +7,7 @@ const compareTriplets = (a, b) => {
         if (a[index] > b[index]) {
             scoreForAlice++;
         }
+
         if (a[index] < b[index]) {
             scoreForBob++;
         }

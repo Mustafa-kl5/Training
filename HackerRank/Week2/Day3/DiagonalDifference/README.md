@@ -7,7 +7,7 @@ For example, the square matrix is shown below:
 9 8 9  
 The left-to-right diagonal = . The right to left diagonal = . Their absolute difference is .
 
-Function description4
+Function description
 
 Complete the function in the editor below.
 
