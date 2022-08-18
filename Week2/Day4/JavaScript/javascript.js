@@ -1,1 +1,0 @@
-//Hackerrand challenges Day one

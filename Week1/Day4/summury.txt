@@ -1,9 +1,0 @@
-Objectives achieved in this day 
-
-1 Learn more CSS rule 
-2 How to deal with bootstarp
-3 how to use flexbox 
-
-note for bootstrap = > 
-This is a small project that I worked on a few months ago .
-pricing panel => i got template from internet and make them with flexbox and css , It s responsive with brake point 640px .

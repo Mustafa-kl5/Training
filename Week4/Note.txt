@@ -1,1 +1,0 @@
-This small project for all lectures in angular course

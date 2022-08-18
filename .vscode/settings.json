@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "Training"
+    "liveServer.settings.multiRootWorkspaceName": "Training",
+    "liveServer.settings.port": 5502
 }
