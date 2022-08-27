@@ -1,26 +1,14 @@
 const migratoryBirds = (arr) => {
-    let obj = {
-        type1: 0,
-        type2: 0,
-        type3: 0,
-        type4: 0,
-        type5: 0,
-    };
-    arr.forEach((element) => {
-        if (element == 1) {
-            obj.type1++;
-        } else if (element == 2) {
-            obj.type2++;
-        } else if (element == 3) {
-            obj.type3++;
-        } else if (element == 4) {
-            obj.type4++;
-        } else if (element == 5) {
-            obj.type5++;
-        }
+    let newArr = {};
+    const uniqueVal = [...new Set(arr)];
+    uniqueVal.forEach((elem) => {
+        const filterVal = arr.filter((val) => val == elem);
+        const totalVal = filterVal.length;
+        newArr[elem] = totalVal;
     });
-    const values = Object.values(obj);
-    const max = Math.max(...values);
-    return max;
+
+    let result = Object.entries(newArr).sort(([, a], [, b]) => b - a);
+    let final = result[0][0];
+    return final;
 };
 console.log(migratoryBirds([1, 4, 4, 4, 5, 3]));

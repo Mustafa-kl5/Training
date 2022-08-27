@@ -1,0 +1,2 @@
+link = >
+https://www.hackerrank.com/challenges/minimum-distances/problem?isFullScreen=true
